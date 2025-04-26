@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>待办事项清单</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>待办事项清单</h1>
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="输入新的待办事项...">
+            <button id="addTask">添加</button>
+        </div>
+        <ul id="taskList" class="task-list">
+            <!-- 任务列表将通过 JavaScript 动态生成 -->
+        </ul>
+        <div id="historyList" class="history-list">
+            <h2>历史记录</h2>
+            <!-- 历史记录将通过 JavaScript 动态生成 -->
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
